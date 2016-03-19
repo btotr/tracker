@@ -1,4 +1,4 @@
-This is a project with an Arduino Mega 2560 board with GPS/GSM & ANT+ devices for tracking outdoor activities (Run, Bike, ..) 
+This is a project with an Arduino Mega 2560 board and GPS/GSM & ANT+ devices for tracking outdoor activities (Run, Bike, ..) 
 and show everything on a web site (not all code is mine)
 
 On the Arduino, it works like this:</br>
