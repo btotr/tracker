@@ -1,22 +1,5 @@
-/* Example for the ANT+ Library @ https://github.com/brodykenrick/ANTPlus_Arduino
-Copyright 2013 Brody Kenrick.
-
-Developed for http://retrorunnerreadout.blogspot.com
-
+/* 
 Interfacing of Garmin ANT+ device (via a cheap Nordic nRF24AP UART module) to an Arduino.
-
-Opens an ANT+ channel listening for HRM. Prints out computed hear rate.
-
-Hardware
-An Arduino Pro Mini 3v3 connected to this nRF24AP2 module : http://www.goodluckbuy.com/nrf24ap2-networking-module-zigbee-module-with-ant-transceiver-.html
-
-The connector on nRF24AP2 board is (looking from the front, pin 1 is marked []):
-[]GND(=VSS) | VDD(=3.3 volts)
-UART_TX   | UART_RX
-!(SUSP)   | SLEEP
-RTS       | !(RESET)
-
-Wiring to the Arduino Pro Mini 3v3 can be seen in 'antplus' below.
 */
 
 #define __SW012__
